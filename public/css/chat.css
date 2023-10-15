@@ -1,0 +1,79 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 4px;
+}
+
+#box-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 18rem;
+}
+
+#box-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 18rem;
+}
+
+.form-control {
+    width: 13rem;
+    border-radius: 5px;
+    height: 2rem;
+    margin: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0);
+}
+
+/* hr{
+    width: 30%;
+    margin: 0;
+} */
+
+
+
+button {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+}
+
+button:hover {
+    background: #f42859;
+    color: #ffff;
+}
+
+.icon{
+    height: 15px;
+    margin-top: 8px;
+}
+
+#ulUsuarios{
+    list-style: none;
+}
+
+.userName{
+    color: #59b087;
+}
+
+.userMensaje{
+    color: #61a1eb;
+}

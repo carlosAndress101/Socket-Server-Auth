@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    width: 11rem;
+    height: 2rem;
+    border-radius: 6px;
+    border: none;
+    background: #2863ff;
+    color: #ffff;
+    font-size: 20px;
+}
+
+button:hover{
+    background: #f42859;
+}
+
+.form-control{
+    width: 13rem;
+    border-radius: 5px;
+    height: 1.5rem;
+    margin: 10px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
